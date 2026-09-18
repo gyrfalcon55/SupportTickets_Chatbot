@@ -126,15 +126,13 @@ Run the project's ingestion entry point before starting the app if database init
 | LLM integration | LangChain-compatible model integration (provider depends on configuration) |
 | Database | SQLite |
 | Data processing | pandas |
-| Validation/testing | pytest |
-| Local model option | Ollama |
-| Hosted free-tier options | Groq or Hugging Face Inference API, if configured |
+| LLM Models | qwen/qwen3.8-27b (fallback model: openai/gpt-oss-20b) |
 
 The exact package versions should be taken from the repository's `requirements.txt` (or equivalent dependency file). Keep that file as the source of truth.
 
 ## Dataset
 
-The assessment brief describes a UTF-8 CSV named `support_tickets.csv` with 500 rows. Its schema includes:
+The Dataset `support_tickets.csv` contains 500 rows. Its schema includes:
 
 | Field | Meaning |
 |---|---|
@@ -149,7 +147,7 @@ The assessment brief describes a UTF-8 CSV named `support_tickets.csv` with 500 
 | `customer_rating` | Customer rating (1–5; may be null) |
 | `issue_summary` | Short free-text issue description |
 
-The supplied assessment sample shows dates beginning in January 2024. The actual minimum and maximum timestamps should be discovered from the loaded dataset/database at runtime.
+
 
 ## Repository layout
 
@@ -159,12 +157,12 @@ The application is organized around API routes, services, workflow/query executi
 .
 ├── app/
 │   ├── api/
+│   │   ├── models/       # Request Models
 │   │   ├── routes/       # HTTP endpoints
 │   │   └── services/     # Query/anomaly business logic
 │   ├── ...               # Workflow, data access, and shared modules
 │   └── ui/               # Streamlit application
-├── data/                 # Source CSV / local data assets (if included)
-├── tests/                # pytest tests (if included)
+├── data/                 # Source CSV / local data assets 
 ├── requirements.txt
 ├── .env.example          # Recommended configuration template
 └── README.md
@@ -172,34 +170,25 @@ The application is organized around API routes, services, workflow/query executi
 
 ## Prerequisites
 
-- Python 3.10+ (use the version compatible with the project's pinned dependencies).
+- Python 3.14 
 - Git.
-- An LLM provider:
-  - **Ollama** with a compatible model pulled locally, or
-  - a supported free-tier hosted provider and its API key.
-- The supplied `support_tickets.csv` file, unless it is already included in the repository.
+- GROQ_API_KEY
 
 ## Local setup
 
 ### 1. Clone the repository
 
 ```bash
-git clone <YOUR_GITHUB_REPOSITORY_URL>
-cd <YOUR_REPOSITORY_DIRECTORY>
+git clone https://github.com/gyrfalcon55/SupportTickets_Chatbot.git
+cd SupportTickets_Chatbot
 ```
 
 ### 2. Create and activate a virtual environment
 
 **Windows PowerShell**
-```powershell
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
-```
-
-**Linux / macOS**
 ```bash
-python3 -m venv .venv
-source .venv/bin/activate
+python -m venv myenv
+myenv/Scripts/activate
 ```
 
 ### 3. Install dependencies
@@ -221,55 +210,18 @@ Example template (rename keys to match the actual settings read by the code):
 
 ```dotenv
 # Example only — verify names against the application's configuration.
-LLM_PROVIDER=ollama
-OLLAMA_BASE_URL=http://localhost:11434
-OLLAMA_MODEL=<your-pulled-model>
 GROQ_API_KEY=
-HF_TOKEN=
 ```
 
-### 6. Initialize the database
 
-Run the repository's database initialization script/command. The exact module path depends on the checked-out source. For example, if the project exposes `init_db.py` at the repository root:
-
-```bash
-python init_db.py
-```
 
 If initialization is performed automatically during FastAPI startup, follow that startup path instead and ensure the CSV path is valid.
 
-## Configuration and LLMs
-
-### Provider options
-
-| Provider | When to use | Notes |
-|---|---|---|
-| Ollama | Local development and offline/private inference | Requires Ollama installed and the selected model pulled. Model size affects RAM/VRAM and latency. |
-| Groq | Hosted inference with a free-tier option, subject to provider limits | Requires an API key and network access. |
-| Hugging Face Inference API | Hosted inference where a compatible model/endpoint is available | Requires token/configuration; availability and free-tier limits can change. |
-
-Use one configured provider at a time unless the code explicitly implements fallback. A provider name in documentation does not mean fallback is automatically active.
-
-### Selecting a model
-
-Choose a model that:
-- follows structured-output instructions reliably;
-- understands SQL and the database schema;
-- fits the available hardware or provider limits;
-- has acceptable latency for an interactive workflow.
-
-The model is used for language understanding/planning and presentation. SQL validation, database execution, and anomaly calculations should remain deterministic.
 
 ## Running the application
 
-Run commands from the repository root and use the entry points defined in the current source.
-
-### Start the FastAPI server
-
-Typical command when the ASGI application is exposed as `app.main:app`:
-
 ```bash
-uvicorn app.main:app --reload
+python start.py
 ```
 
 If the project uses a different module/object path, substitute the actual import path. Once started, open:
@@ -319,30 +271,6 @@ These are illustrative payloads; adapt the URL and parameter names to the actual
 }
 ```
 
-If the implementation uses a reference-date parameter such as `as_of`, use the parameter documented by the current endpoint. A date range and an `as_of` date are not interchangeable.
-
-## Natural-language query examples
-
-Questions aligned with the assessment brief include:
-
-| User question | Expected type of result |
-|---|---|
-| “How many tickets are currently open?” | Count of records whose status is open under the app's status normalization. |
-| “Which agent resolved the most tickets this month?” | Agent aggregation over the requested month and resolved-ticket population. |
-| “Show me all Critical tickets not resolved within 12 hours.” | Critical tickets meeting the specified resolution/age condition; clarify whether unresolved tickets are included if the question is ambiguous. |
-| “What is the average customer rating for Technical category tickets?” | Average non-null rating for the Technical category. |
-| “Are there any anomalies in resolution times this week?” | Requires a well-defined week and a date range overlapping the dataset; otherwise the system should explain the mismatch or request a date. |
-
-### Example cURL
-
-```bash
-curl -X POST "http://127.0.0.1:8000/<QUERY_ENDPOINT>" \
-  -H "Content-Type: application/json" \
-  -d '{"question":"How many tickets are currently open?"}'
-```
-
-Replace `<QUERY_ENDPOINT>` with the actual path shown in `/docs`.
-
 ## Anomaly detection
 
 ### Resolution-time outliers
@@ -376,60 +304,4 @@ An anomaly flag is an investigation signal, not proof of a data error or agent f
 - Provide useful error messages without exposing stack traces to API clients.
 - Treat LLM-generated SQL as untrusted input, even when the prompt instructs the model to be safe.
 
-## Testing
 
-Run the test suite from the repository root:
-
-```bash
-pytest -q
-```
-
-If tests require environment variables or a test database, configure those as described in the test fixtures or project configuration. Add tests for:
-
-- CSV schema validation and missing/null values;
-- read-only SQL validation (including multiple statements and mutation attempts);
-- empty query results and malformed LLM output;
-- date parsing, invalid ranges, and dataset-boundary behavior;
-- IQR calculations and unresolved-ticket age thresholds;
-- API success/error responses;
-- Streamlit/API integration where practical.
-
-## Troubleshooting
-
-| Symptom | Checks |
-|---|---|
-| Database is empty or missing | Confirm the ingestion/init command ran, the CSV path is correct, and the app is using the same SQLite file. |
-| LLM connection fails | Confirm provider configuration, local Ollama service/model availability, API key, and network access. |
-| Query is rejected | Inspect the generated SQL and validator message; ensure it is read-only and uses valid table/column names. |
-| Natural-language date phrase is not understood | Use explicit ISO dates (`YYYY-MM-DD`) and check whether the current parser supports the requested range syntax. |
-| “This week” returns no relevant records | Compare the interpreted date window with the dataset's actual minimum/maximum timestamps. |
-| UI cannot reach API | Start FastAPI first and verify the configured API base URL/port. |
-| Dependency installation fails | Use a compatible Python version and install from the repository's pinned dependency file. |
-
-## Known limitations and future work
-
-Confirm these against the current implementation before submission; they are common areas to document or improve:
-
-- Natural-language date expressions can be ambiguous and may require explicit dates.
-- Statistical outliers depend on the selected population and can change when the date range changes.
-- LLM-generated plans/SQL can fail on complex or underspecified questions; validation and clarification are necessary.
-- SQLite is suitable for a local assessment prototype but is not a substitute for a managed, concurrent production database.
-- Provider free-tier quotas, model availability, and latency are outside the application's control.
-- Production deployment would require authentication/authorization, rate limiting, structured observability, secret management, and stronger data governance.
-
-Potential next steps:
-- Add a schema-aware query planner and stricter structured output.
-- Expand unit/integration tests for date parsing and adversarial SQL.
-- Add request IDs, structured logs, latency metrics, and provider-fallback observability.
-- Package API, UI, database initialization, and optional Ollama service with Docker Compose.
-- Add a documented dataset refresh/rebuild workflow and migration strategy.
-
----
-
-## Assessment alignment
-
-This project is designed around the assessment's core deliverables: CSV ingestion, LLM-based natural-language querying, anomaly detection, and both REST API and UI access. The assessment also asks for setup instructions, architecture, tools/models, example queries/outputs, and known limitations; keep this README synchronized with the actual code and verified run commands before submission.
-
-## License
-
-Add the license appropriate for this repository and the dataset's permitted use. Do not assume the assessment dataset is redistributable.
