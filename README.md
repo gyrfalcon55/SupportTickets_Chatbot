@@ -1,8 +1,8 @@
-# DOTMappers IT — AI Engineer Assessment
+# SupportTickets_Chatbot
+
+<img width="1376" height="768" alt="supportticketsimg" src="https://github.com/user-attachments/assets/78ead475-ef04-4223-b8ca-b6d7d9e99739" />
 
 An AI-assisted customer-support analytics application that makes support-ticket data queryable through natural-language questions and identifies operational anomalies. The system combines a deterministic data/query layer with an LLM-powered interpretation layer, a REST API, and a Streamlit interface.
-
-> **Assessment context:** This repository is intended to address the DOTMappers IT AI Engineer assessment: ingest the supplied CSV, answer natural-language questions, detect anomalies, and expose the functionality through an API and UI.
 
 ---
 
@@ -276,8 +276,6 @@ python start.py
 
 
 ## API overview
-
-The assessment requires at least these capabilities:
 
 | Capability | Purpose |
 |---|---|
