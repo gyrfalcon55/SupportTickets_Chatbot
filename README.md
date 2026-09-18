@@ -16,15 +16,10 @@ An AI-assisted customer-support analytics application that makes support-ticket 
 - [Repository layout](#repository-layout)
 - [Prerequisites](#prerequisites)
 - [Local setup](#local-setup)
-- [Configuration and LLMs](#configuration-and-llms)
 - [Running the application](#running-the-application)
 - [API overview](#api-overview)
-- [Natural-language query examples](#natural-language-query-examples)
 - [Anomaly detection](#anomaly-detection)
 - [Validation, security, and reliability](#validation-security-and-reliability)
-- [Testing](#testing)
-- [Troubleshooting](#troubleshooting)
-- [Known limitations and future work](#known-limitations-and-future-work)
 
 ---
 
