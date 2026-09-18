@@ -150,17 +150,68 @@ The application is organized around API routes, services, workflow/query executi
 
 ```text
 .
-├── app/
-│   ├── api/
-│   │   ├── models/       # Request Models
-│   │   ├── routes/       # HTTP endpoints
-│   │   └── services/     # Query/anomaly business logic
-│   ├── ...               # Workflow, data access, and shared modules
-│   └── ui/               # Streamlit application
-├── data/                 # Source CSV / local data assets 
+├── .env.example
+├── .gitignore
+├── exception.py
+├── logger.py
+├── README.md
 ├── requirements.txt
-├── .env.example          # Recommended configuration template
-└── README.md
+├── start.py
+│
+├── app/
+│   ├── __init__.py
+│   ├── config.py
+│   │
+│   ├── api/
+│   │   ├── __init__.py
+│   │   ├── main.py
+│   │   │
+│   │   ├── models/
+│   │   │   └── request_models.py
+│   │   │
+│   │   ├── routes/
+│   │   │   ├── anomalies_route.py
+│   │   │   ├── health_route.py
+│   │   │   └── query_route.py
+│   │   │
+│   │   └── services/
+│   │       ├── detect_anomalies_service.py
+│   │       ├── extract_interrupts_service.py
+│   │       ├── get_connection_service.py
+│   │       ├── json_sanitize_service.py
+│   │       └── load_tickets_service.py
+│   │
+│   ├── db/
+│   │   ├── __init__.py
+│   │   ├── initialize_db.py
+│   │   └── support_tickets.db
+│   │
+│   ├── llm/
+│   │   ├── __init__.py
+│   │   ├── graph.py
+│   │   ├── llm_service.py
+│   │   ├── state.py
+│   │   │
+│   │   ├── nodes/
+│   │   │   ├── __init__.py
+│   │   │   ├── anomaly_node.py
+│   │   │   ├── chat_node.py
+│   │   │   ├── clarification_node.py
+│   │   │   ├── executor_node.py
+│   │   │   ├── formatter_node.py
+│   │   │   ├── intent_node.py
+│   │   │   ├── schema_node.py
+│   │   │   └── sql_builder_node.py
+│   │   │
+│   │   └── prompts/
+│   │       ├── format_sql_prompt.txt
+│   │       └── generate_sql_prompt.txt
+│   │
+│   └── ui/
+│       └── streamlit_app.py
+│
+└── data/
+    └── support_tickets.csv
 ```
 
 ## Prerequisites
@@ -170,21 +221,21 @@ The application is organized around API routes, services, workflow/query executi
 - GROQ_API_KEY
 
 ## Local setup
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/gyrfalcon55/SupportTickets_Chatbot.git
-cd SupportTickets_Chatbot
-```
-
-### 2. Create and activate a virtual environment
+### 1. Create and activate a virtual environment
 
 **Windows PowerShell**
 ```bash
 python -m venv myenv
 myenv/Scripts/activate
 ```
+
+### 2. Clone the repository
+
+```bash
+git clone https://github.com/gyrfalcon55/SupportTickets_Chatbot.git
+cd SupportTickets_Chatbot
+```
+
 
 ### 3. Install dependencies
 
