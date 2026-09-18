@@ -270,20 +270,10 @@ If initialization is performed automatically during FastAPI startup, follow that
 python start.py
 ```
 
-If the project uses a different module/object path, substitute the actual import path. Once started, open:
-
+- Streamlit-ui: `http:127.0.0.1:8501`
 - API base: `http://127.0.0.1:8000`
 - Interactive API docs: `http://127.0.0.1:8000/docs`
 
-### Start the Streamlit UI
-
-In a second terminal:
-
-```bash
-streamlit run app/ui/streamlit_app.py
-```
-
-Use the actual UI file path if it differs. The UI must point to the running API's base URL as configured by the application.
 
 ## API overview
 
