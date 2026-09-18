@@ -1,0 +1,5 @@
+Answer the user's support-ticket data question using only the query result.
+Question: {question}
+Query result (JSON): {data}
+Rules: never invent facts; distinguish no matching rows from a database error;
+state date assumptions only when supported by the query/result; be concise.

@@ -1,0 +1,501 @@
+ticket_id,created_at,category,priority,status,response_time_hrs,resolution_time_hrs,agent_id,customer_rating,issue_summary
+TKT-001,2024-03-03 01:58,General,Low,Resolved,1.5,3.7,AGT-02,5.0,Slow response from support portal
+TKT-002,2024-02-10 23:08,General,Low,Open,1.5,,AGT-01,,Data sync issue between environments
+TKT-003,2024-01-20 07:19,Billing,High,Resolved,2.6,9.5,AGT-07,5.0,Unable to reset password
+TKT-004,2024-01-27 23:29,Billing,Low,Escalated,2.1,,AGT-07,,Login failure after update
+TKT-005,2024-02-04 20:28,Technical,High,Resolved,4.9,14.9,AGT-02,5.0,Data sync issue between environments
+TKT-006,2024-01-29 11:09,Billing,High,Resolved,5.2,12.0,AGT-05,1.0,Login failure after update
+TKT-007,2024-03-24 01:02,General,Low,Open,1.7,,AGT-06,,Request for product docs
+TKT-008,2024-02-05 22:35,General,Medium,Resolved,4.2,14.0,AGT-04,4.0,Request for product docs
+TKT-009,2024-02-14 21:08,General,Medium,Escalated,3.9,,AGT-04,,Unable to reset password
+TKT-010,2024-03-22 19:59,Technical,High,Open,4.9,,AGT-07,,Refund not processed
+TKT-011,2024-01-07 10:13,Technical,Low,Escalated,5.3,,AGT-04,,Duplicate charge on card
+TKT-012,2024-02-08 09:53,General,High,Resolved,0.9,3.7,AGT-10,4.0,Feature request for dashboard export
+TKT-013,2024-03-28 04:04,Billing,Medium,Resolved,6.0,3.6,AGT-03,5.0,Request for product docs
+TKT-014,2024-03-17 21:40,General,High,Resolved,2.4,12.3,AGT-01,3.0,Login failure after update
+TKT-015,2024-03-07 04:30,Billing,High,Resolved,4.6,7.5,AGT-05,3.0,Data sync issue between environments
+TKT-016,2024-03-14 23:30,Technical,Low,Escalated,5.2,,AGT-09,,Slow response from support portal
+TKT-017,2024-01-20 07:29,Technical,Low,Resolved,3.3,15.8,AGT-08,1.0,Incorrect charge on invoice
+TKT-018,2024-01-11 20:40,Billing,Critical,Resolved,5.0,6.8,AGT-02,5.0,Duplicate charge on card
+TKT-019,2024-03-20 05:28,Technical,Low,Resolved,4.6,3.4,AGT-09,4.0,Slow response from support portal
+TKT-020,2024-02-11 01:58,General,Critical,Escalated,4.6,,AGT-04,,Refund not processed
+TKT-021,2024-02-08 17:43,Technical,Critical,Resolved,2.7,10.8,AGT-01,3.0,Slow response from support portal
+TKT-022,2024-02-23 18:43,General,Low,Open,0.5,,AGT-01,,API timeout in production
+TKT-023,2024-01-07 13:03,Billing,Critical,Resolved,0.5,5.5,AGT-10,3.0,Slow response from support portal
+TKT-024,2024-02-15 21:24,Technical,Low,Resolved,2.5,2.8,AGT-08,4.0,Incorrect charge on invoice
+TKT-025,2024-03-06 09:03,Billing,High,Resolved,0.5,14.8,AGT-04,2.0,Data sync issue between environments
+TKT-026,2024-02-13 13:20,Billing,Low,Open,2.8,,AGT-08,,Data sync issue between environments
+TKT-027,2024-01-10 12:08,Billing,Low,Escalated,5.0,,AGT-04,,Request for product docs
+TKT-028,2024-02-09 11:00,Billing,Medium,Open,2.5,,AGT-03,,Feature request for dashboard export
+TKT-029,2024-01-01 05:01,General,Critical,Resolved,4.7,9.6,AGT-08,5.0,Request for product docs
+TKT-030,2024-01-19 10:29,General,Low,Escalated,3.5,,AGT-01,,Unable to reset password
+TKT-031,2024-01-06 13:12,Billing,Low,Resolved,5.5,11.1,AGT-02,4.0,Slow response from support portal
+TKT-032,2024-01-07 14:21,General,High,Open,0.8,,AGT-04,,Slow response from support portal
+TKT-033,2024-02-27 17:19,General,Low,Open,4.0,,AGT-09,,Unable to reset password
+TKT-034,2024-01-26 07:37,Technical,Low,Resolved,1.5,8.5,AGT-02,3.0,Incorrect charge on invoice
+TKT-035,2024-02-14 11:52,Technical,Medium,Resolved,0.7,11.2,AGT-02,2.0,API timeout in production
+TKT-036,2024-02-05 21:03,General,Low,Resolved,3.3,6.7,AGT-01,5.0,Data sync issue between environments
+TKT-037,2024-01-30 01:36,Technical,Critical,Open,5.3,,AGT-02,,Login failure after update
+TKT-038,2024-03-13 01:57,Technical,Medium,Resolved,3.7,14.6,AGT-09,4.0,Duplicate charge on card
+TKT-039,2024-01-25 09:09,Billing,Critical,Resolved,0.6,9.0,AGT-05,1.0,Request for product docs
+TKT-040,2024-03-12 23:11,Billing,Medium,Resolved,3.4,3.1,AGT-09,4.0,Incorrect charge on invoice
+TKT-041,2024-03-22 00:44,Billing,Medium,Resolved,2.6,1.8,AGT-06,5.0,API timeout in production
+TKT-042,2024-03-07 05:19,Technical,Low,Open,4.7,,AGT-10,,Request for product docs
+TKT-043,2024-01-23 23:38,Technical,High,Escalated,4.9,,AGT-01,,Request for product docs
+TKT-044,2024-03-12 12:19,Billing,Critical,Resolved,2.5,13.7,AGT-02,3.0,Feature request for dashboard export
+TKT-045,2024-03-25 16:17,Billing,Low,Resolved,1.3,18.5,AGT-04,5.0,Incorrect charge on invoice
+TKT-046,2024-03-05 01:59,Technical,Low,Resolved,5.2,19.4,AGT-09,4.0,Unable to reset password
+TKT-047,2024-01-03 16:18,Technical,Low,Escalated,1.2,,AGT-01,,Login failure after update
+TKT-048,2024-02-27 22:06,General,Medium,Resolved,2.0,12.5,AGT-04,4.0,Refund not processed
+TKT-049,2024-01-05 07:25,General,High,Open,5.6,,AGT-04,,Unable to reset password
+TKT-050,2024-02-11 20:59,Technical,Low,Resolved,2.0,7.0,AGT-09,5.0,Refund not processed
+TKT-051,2024-03-05 17:58,General,Medium,Resolved,1.8,3.4,AGT-03,5.0,Slow response from support portal
+TKT-052,2024-02-25 06:06,General,Low,Resolved,0.1,6.5,AGT-06,4.0,Duplicate charge on card
+TKT-053,2024-02-12 21:26,General,Medium,Open,2.9,,AGT-03,,Login failure after update
+TKT-054,2024-01-28 13:16,Billing,Medium,Resolved,2.1,16.6,AGT-04,4.0,Request for product docs
+TKT-055,2024-01-03 08:54,Billing,Low,Escalated,3.7,,AGT-08,,Feature request for dashboard export
+TKT-056,2024-03-27 00:50,Technical,Medium,Open,4.2,,AGT-07,,API timeout in production
+TKT-057,2024-01-15 07:51,Billing,High,Open,4.5,,AGT-07,,API timeout in production
+TKT-058,2024-01-18 01:50,Billing,High,Resolved,2.8,11.6,AGT-08,2.0,Data sync issue between environments
+TKT-059,2024-02-24 06:23,General,Medium,Escalated,5.4,,AGT-09,,Feature request for dashboard export
+TKT-060,2024-03-21 15:21,General,Critical,Resolved,1.0,17.4,AGT-05,5.0,Data sync issue between environments
+TKT-061,2024-02-17 01:11,General,Medium,Resolved,0.6,6.4,AGT-02,3.0,Request for product docs
+TKT-062,2024-01-15 15:27,Technical,Low,Resolved,4.3,2.2,AGT-01,4.0,API timeout in production
+TKT-063,2024-03-21 20:46,General,Medium,Escalated,3.5,,AGT-01,,Slow response from support portal
+TKT-064,2024-02-06 22:21,Technical,Medium,Escalated,1.9,,AGT-07,,Data sync issue between environments
+TKT-065,2024-03-13 13:50,Technical,High,Resolved,5.4,10.3,AGT-06,4.0,Feature request for dashboard export
+TKT-066,2024-03-11 07:27,Billing,Low,Resolved,0.9,95.5,AGT-02,4.0,Feature request for dashboard export
+TKT-067,2024-01-14 04:12,Technical,High,Open,1.6,,AGT-04,,Duplicate charge on card
+TKT-068,2024-02-01 17:36,Technical,Low,Resolved,1.7,19.1,AGT-01,5.0,Data sync issue between environments
+TKT-069,2024-01-06 01:22,Billing,Critical,Resolved,3.9,15.8,AGT-04,5.0,Incorrect charge on invoice
+TKT-070,2024-03-01 07:49,General,Low,Open,4.0,,AGT-04,,Duplicate charge on card
+TKT-071,2024-03-08 21:52,Billing,Low,Resolved,3.7,19.3,AGT-05,5.0,Login failure after update
+TKT-072,2024-02-26 04:25,Billing,Low,Resolved,4.1,19.2,AGT-10,5.0,API timeout in production
+TKT-073,2024-01-10 21:26,Billing,High,Resolved,4.1,16.3,AGT-06,4.0,Data sync issue between environments
+TKT-074,2024-02-11 14:11,Billing,High,Open,3.9,,AGT-07,,Duplicate charge on card
+TKT-075,2024-01-11 05:55,General,Medium,Resolved,5.4,9.7,AGT-05,3.0,Slow response from support portal
+TKT-076,2024-03-19 11:14,Billing,Critical,Resolved,2.8,16.7,AGT-02,3.0,Refund not processed
+TKT-077,2024-03-26 14:20,Technical,Medium,Resolved,3.5,13.7,AGT-03,4.0,Duplicate charge on card
+TKT-078,2024-01-21 14:16,General,Medium,Resolved,1.7,12.3,AGT-04,4.0,Login failure after update
+TKT-079,2024-01-24 10:24,Billing,High,Resolved,4.6,14.1,AGT-02,4.0,Refund not processed
+TKT-080,2024-01-22 12:21,Technical,Medium,Open,4.0,,AGT-08,,Data sync issue between environments
+TKT-081,2024-02-21 13:08,Technical,Low,Escalated,3.3,,AGT-08,,Refund not processed
+TKT-082,2024-01-30 18:29,Billing,Low,Open,1.2,,AGT-09,,Request for product docs
+TKT-083,2024-01-19 14:19,Billing,Low,Resolved,4.4,19.6,AGT-04,3.0,Refund not processed
+TKT-084,2024-01-23 02:04,Technical,Medium,Resolved,4.3,3.4,AGT-03,2.0,Duplicate charge on card
+TKT-085,2024-01-10 23:02,Technical,High,Resolved,2.9,9.4,AGT-02,2.0,Login failure after update
+TKT-086,2024-02-08 21:42,Billing,Medium,Resolved,4.2,3.9,AGT-04,5.0,Login failure after update
+TKT-087,2024-02-24 04:24,Technical,High,Resolved,4.8,5.3,AGT-05,4.0,Slow response from support portal
+TKT-088,2024-02-11 15:14,Billing,Low,Resolved,3.7,15.1,AGT-05,3.0,Login failure after update
+TKT-089,2024-01-16 05:58,Billing,Low,Resolved,1.0,8.8,AGT-04,4.0,Refund not processed
+TKT-090,2024-03-09 15:19,General,Low,Resolved,0.5,5.4,AGT-04,5.0,Feature request for dashboard export
+TKT-091,2024-01-12 03:26,Technical,Medium,Resolved,5.5,16.7,AGT-10,3.0,Slow response from support portal
+TKT-092,2024-01-29 00:30,Technical,Medium,Resolved,1.9,8.6,AGT-02,4.0,Slow response from support portal
+TKT-093,2024-01-04 20:52,General,High,Resolved,3.7,1.5,AGT-10,4.0,Incorrect charge on invoice
+TKT-094,2024-03-15 06:01,Technical,High,Resolved,0.3,15.4,AGT-03,4.0,Slow response from support portal
+TKT-095,2024-02-12 07:41,Billing,Medium,Resolved,0.6,7.6,AGT-06,4.0,Feature request for dashboard export
+TKT-096,2024-03-08 08:22,Technical,Medium,Resolved,2.5,15.4,AGT-06,2.0,Login failure after update
+TKT-097,2024-03-16 00:10,Billing,Medium,Resolved,5.9,13.5,AGT-09,4.0,Unable to reset password
+TKT-098,2024-03-01 10:50,Technical,High,Resolved,4.6,4.9,AGT-08,5.0,Login failure after update
+TKT-099,2024-01-03 19:16,Billing,Critical,Resolved,1.5,4.0,AGT-04,4.0,Login failure after update
+TKT-100,2024-02-14 19:15,Technical,Critical,Resolved,1.0,18.7,AGT-08,5.0,Duplicate charge on card
+TKT-101,2024-01-24 15:56,General,Medium,Open,1.2,,AGT-09,,Request for product docs
+TKT-102,2024-03-24 21:19,Billing,Low,Resolved,5.1,7.5,AGT-05,3.0,Refund not processed
+TKT-103,2024-03-22 07:27,Billing,Medium,Escalated,3.0,,AGT-08,,Data sync issue between environments
+TKT-104,2024-02-17 00:35,General,Low,Resolved,3.3,9.7,AGT-04,3.0,Slow response from support portal
+TKT-105,2024-02-07 04:23,Technical,Low,Resolved,0.4,15.1,AGT-03,5.0,Duplicate charge on card
+TKT-106,2024-01-04 14:15,Billing,Low,Escalated,2.1,,AGT-08,,Login failure after update
+TKT-107,2024-02-21 01:33,General,Critical,Open,1.0,,AGT-03,,Login failure after update
+TKT-108,2024-02-15 13:59,General,High,Resolved,3.8,8.6,AGT-09,3.0,Feature request for dashboard export
+TKT-109,2024-01-31 17:52,General,Medium,Resolved,3.0,11.3,AGT-05,3.0,API timeout in production
+TKT-110,2024-03-13 12:05,General,Low,Escalated,4.6,,AGT-02,,Duplicate charge on card
+TKT-111,2024-01-17 03:39,Billing,High,Escalated,0.4,,AGT-05,,Unable to reset password
+TKT-112,2024-02-06 09:26,General,Medium,Open,2.5,,AGT-03,,Request for product docs
+TKT-113,2024-01-17 23:56,Technical,Low,Resolved,3.8,5.6,AGT-05,2.0,Duplicate charge on card
+TKT-114,2024-01-25 18:57,Technical,High,Resolved,2.8,6.5,AGT-10,2.0,Refund not processed
+TKT-115,2024-03-03 00:50,Billing,Critical,Resolved,2.8,6.7,AGT-04,5.0,Feature request for dashboard export
+TKT-116,2024-02-25 12:40,Billing,Medium,Resolved,4.2,1.4,AGT-10,4.0,Incorrect charge on invoice
+TKT-117,2024-03-29 09:53,Technical,Medium,Resolved,5.4,6.4,AGT-04,4.0,API timeout in production
+TKT-118,2024-03-01 06:46,General,Low,Resolved,4.6,13.9,AGT-01,2.0,Refund not processed
+TKT-119,2024-03-17 13:35,Billing,Medium,Resolved,4.4,2.7,AGT-04,5.0,Request for product docs
+TKT-120,2024-03-17 08:42,Technical,Medium,Escalated,3.2,,AGT-03,,Refund not processed
+TKT-121,2024-03-29 17:53,Billing,High,Resolved,4.9,15.2,AGT-03,2.0,API timeout in production
+TKT-122,2024-03-24 12:16,Technical,High,Resolved,2.4,17.1,AGT-01,2.0,Refund not processed
+TKT-123,2024-02-22 02:18,Technical,Low,Resolved,4.5,6.0,AGT-02,4.0,API timeout in production
+TKT-124,2024-02-15 18:37,Technical,Low,Resolved,3.4,18.4,AGT-05,2.0,Feature request for dashboard export
+TKT-125,2024-01-12 07:52,Technical,Low,Escalated,1.9,,AGT-02,,Login failure after update
+TKT-126,2024-01-23 19:07,General,High,Open,2.8,,AGT-09,,Feature request for dashboard export
+TKT-127,2024-02-27 00:36,Billing,High,Open,2.5,,AGT-08,,Slow response from support portal
+TKT-128,2024-02-09 14:58,Technical,Critical,Resolved,4.2,5.1,AGT-02,3.0,Unable to reset password
+TKT-129,2024-02-22 20:41,Technical,Critical,Resolved,0.5,6.2,AGT-02,5.0,API timeout in production
+TKT-130,2024-03-03 07:16,Technical,Medium,Escalated,0.4,,AGT-04,,Request for product docs
+TKT-131,2024-03-17 09:47,Billing,Medium,Open,4.6,,AGT-10,,API timeout in production
+TKT-132,2024-03-19 22:33,Billing,High,Resolved,1.0,137.3,AGT-09,2.0,Refund not processed
+TKT-133,2024-03-18 12:40,Technical,Low,Resolved,0.3,1.3,AGT-01,3.0,Request for product docs
+TKT-134,2024-01-26 18:21,General,Low,Resolved,3.2,15.2,AGT-10,5.0,Login failure after update
+TKT-135,2024-02-13 21:14,General,Medium,Escalated,0.4,,AGT-09,,Refund not processed
+TKT-136,2024-02-14 11:18,Technical,Medium,Open,6.0,,AGT-07,,Login failure after update
+TKT-137,2024-02-17 14:24,General,High,Resolved,5.4,7.1,AGT-10,2.0,Data sync issue between environments
+TKT-138,2024-03-10 03:26,Technical,Low,Escalated,3.2,,AGT-09,,Slow response from support portal
+TKT-139,2024-02-11 18:26,Billing,Low,Resolved,5.1,13.4,AGT-07,5.0,Duplicate charge on card
+TKT-140,2024-03-27 05:24,General,Low,Resolved,2.8,8.9,AGT-05,4.0,Unable to reset password
+TKT-141,2024-01-15 19:40,Technical,High,Resolved,0.6,2.6,AGT-03,5.0,Data sync issue between environments
+TKT-142,2024-01-06 19:45,Technical,Medium,Resolved,2.0,3.3,AGT-01,4.0,Refund not processed
+TKT-143,2024-02-28 07:03,Billing,Low,Open,3.1,,AGT-08,,API timeout in production
+TKT-144,2024-03-23 06:17,General,Low,Resolved,2.3,15.5,AGT-10,5.0,Slow response from support portal
+TKT-145,2024-03-06 12:48,General,Medium,Open,5.6,,AGT-05,,Incorrect charge on invoice
+TKT-146,2024-01-18 12:23,General,Low,Resolved,5.5,7.7,AGT-07,2.0,Login failure after update
+TKT-147,2024-01-14 18:35,General,High,Escalated,0.6,,AGT-04,,Feature request for dashboard export
+TKT-148,2024-02-10 18:16,Technical,Medium,Open,1.9,,AGT-10,,Slow response from support portal
+TKT-149,2024-01-09 05:57,Billing,High,Open,4.6,,AGT-02,,Refund not processed
+TKT-150,2024-02-13 00:31,Technical,High,Resolved,2.7,6.2,AGT-02,2.0,Refund not processed
+TKT-151,2024-03-06 20:21,Billing,High,Resolved,4.0,1.9,AGT-04,4.0,Refund not processed
+TKT-152,2024-01-21 12:12,Billing,High,Resolved,1.8,3.3,AGT-07,4.0,Data sync issue between environments
+TKT-153,2024-03-09 07:40,Technical,Low,Resolved,4.0,7.7,AGT-01,5.0,Duplicate charge on card
+TKT-154,2024-01-08 13:25,Billing,High,Resolved,3.5,14.5,AGT-06,2.0,Request for product docs
+TKT-155,2024-03-18 19:12,Technical,Critical,Resolved,4.2,7.9,AGT-10,2.0,Feature request for dashboard export
+TKT-156,2024-02-20 20:55,General,Low,Resolved,4.5,5.2,AGT-02,2.0,Data sync issue between environments
+TKT-157,2024-02-19 12:16,Billing,Low,Resolved,2.2,19.2,AGT-03,2.0,Refund not processed
+TKT-158,2024-01-20 03:40,Billing,Low,Open,4.6,,AGT-03,,Duplicate charge on card
+TKT-159,2024-02-15 01:05,General,High,Resolved,2.7,18.6,AGT-06,4.0,Unable to reset password
+TKT-160,2024-01-15 15:45,Billing,Medium,Resolved,3.8,16.1,AGT-05,4.0,Duplicate charge on card
+TKT-161,2024-02-13 21:02,General,Low,Resolved,1.8,13.2,AGT-09,2.0,Feature request for dashboard export
+TKT-162,2024-02-14 22:11,Billing,Medium,Escalated,4.5,,AGT-08,,Slow response from support portal
+TKT-163,2024-03-04 06:53,Technical,Low,Resolved,3.1,19.2,AGT-02,5.0,Data sync issue between environments
+TKT-164,2024-03-03 17:35,Technical,Low,Open,2.7,,AGT-09,,Data sync issue between environments
+TKT-165,2024-02-29 04:56,General,Low,Resolved,1.8,8.8,AGT-06,4.0,Login failure after update
+TKT-166,2024-02-02 00:14,Billing,Low,Resolved,1.8,14.8,AGT-06,5.0,Login failure after update
+TKT-167,2024-02-26 13:52,General,High,Escalated,1.9,,AGT-07,,Request for product docs
+TKT-168,2024-02-27 18:32,General,High,Open,3.4,,AGT-06,,Request for product docs
+TKT-169,2024-03-06 01:29,General,High,Escalated,6.0,,AGT-02,,Feature request for dashboard export
+TKT-170,2024-02-19 08:51,Billing,Medium,Resolved,1.2,5.1,AGT-03,4.0,Request for product docs
+TKT-171,2024-01-08 11:48,General,Low,Resolved,3.1,11.3,AGT-06,4.0,Slow response from support portal
+TKT-172,2024-01-13 17:21,General,Medium,Open,1.2,,AGT-10,,Request for product docs
+TKT-173,2024-03-11 00:28,General,Medium,Resolved,4.1,5.5,AGT-08,3.0,API timeout in production
+TKT-174,2024-02-21 20:20,Billing,Low,Escalated,4.7,,AGT-06,,Slow response from support portal
+TKT-175,2024-02-12 18:39,General,Medium,Resolved,2.4,11.0,AGT-03,5.0,Refund not processed
+TKT-176,2024-01-06 01:35,Technical,Medium,Resolved,3.4,2.9,AGT-02,5.0,Request for product docs
+TKT-177,2024-01-27 11:38,Technical,Medium,Resolved,5.0,2.7,AGT-01,5.0,Feature request for dashboard export
+TKT-178,2024-01-06 04:05,Billing,Medium,Resolved,2.4,2.6,AGT-06,3.0,Request for product docs
+TKT-179,2024-01-14 08:37,Billing,Low,Escalated,2.9,,AGT-08,,Duplicate charge on card
+TKT-180,2024-02-29 17:51,Billing,Low,Open,1.6,,AGT-09,,Slow response from support portal
+TKT-181,2024-02-21 05:47,General,Medium,Resolved,1.5,3.3,AGT-08,4.0,Login failure after update
+TKT-182,2024-01-11 18:19,Technical,High,Resolved,3.3,13.0,AGT-07,5.0,Incorrect charge on invoice
+TKT-183,2024-02-29 16:36,General,Medium,Resolved,1.2,13.7,AGT-09,4.0,Data sync issue between environments
+TKT-184,2024-03-17 08:28,Technical,Critical,Resolved,2.4,9.9,AGT-01,5.0,Unable to reset password
+TKT-185,2024-03-17 13:23,Billing,Low,Open,4.0,,AGT-10,,Unable to reset password
+TKT-186,2024-01-13 22:52,General,Low,Resolved,4.9,4.3,AGT-08,4.0,Request for product docs
+TKT-187,2024-03-19 18:55,Billing,Low,Resolved,5.7,1.7,AGT-06,5.0,Refund not processed
+TKT-188,2024-02-20 00:55,Billing,Medium,Resolved,2.9,1.7,AGT-06,3.0,Refund not processed
+TKT-189,2024-01-13 02:02,Billing,High,Resolved,2.5,9.4,AGT-08,3.0,Duplicate charge on card
+TKT-190,2024-02-05 15:58,Billing,Critical,Resolved,4.8,14.8,AGT-09,4.0,Refund not processed
+TKT-191,2024-02-01 04:28,Technical,Low,Resolved,1.8,9.5,AGT-06,3.0,Duplicate charge on card
+TKT-192,2024-01-05 02:41,Technical,High,Escalated,3.7,,AGT-05,,Incorrect charge on invoice
+TKT-193,2024-01-08 06:51,General,High,Resolved,3.1,15.2,AGT-08,1.0,Incorrect charge on invoice
+TKT-194,2024-01-13 06:08,General,Low,Resolved,2.3,8.3,AGT-08,4.0,Unable to reset password
+TKT-195,2024-02-06 02:51,Technical,Medium,Open,0.9,,AGT-07,,Unable to reset password
+TKT-196,2024-03-04 01:35,Billing,Low,Escalated,0.3,,AGT-08,,Data sync issue between environments
+TKT-197,2024-02-07 13:44,General,Critical,Open,4.7,,AGT-08,,API timeout in production
+TKT-198,2024-02-29 09:46,Billing,Low,Escalated,3.0,,AGT-03,,Login failure after update
+TKT-199,2024-02-13 21:20,General,Low,Resolved,6.0,16.4,AGT-06,5.0,Login failure after update
+TKT-200,2024-02-23 09:35,Technical,Medium,Resolved,5.1,14.5,AGT-09,4.0,API timeout in production
+TKT-201,2024-01-12 18:47,Technical,Critical,Resolved,1.5,10.4,AGT-09,4.0,Request for product docs
+TKT-202,2024-02-29 09:56,General,High,Open,2.4,,AGT-08,,Data sync issue between environments
+TKT-203,2024-02-09 21:13,General,High,Resolved,0.5,19.5,AGT-09,4.0,Unable to reset password
+TKT-204,2024-01-13 11:02,Billing,High,Resolved,3.9,4.5,AGT-02,4.0,Data sync issue between environments
+TKT-205,2024-01-15 20:33,Billing,Low,Open,5.6,,AGT-06,,Data sync issue between environments
+TKT-206,2024-03-27 21:19,General,Low,Open,1.3,,AGT-05,,Request for product docs
+TKT-207,2024-03-01 16:24,General,Low,Resolved,3.1,4.2,AGT-10,3.0,Slow response from support portal
+TKT-208,2024-02-02 18:42,General,High,Resolved,5.0,1.5,AGT-05,4.0,API timeout in production
+TKT-209,2024-03-15 11:08,Technical,Medium,Resolved,0.3,17.9,AGT-08,4.0,API timeout in production
+TKT-210,2024-03-19 03:03,Technical,High,Resolved,2.8,14.1,AGT-04,4.0,Unable to reset password
+TKT-211,2024-02-28 21:37,Technical,Low,Resolved,2.0,19.8,AGT-09,4.0,Data sync issue between environments
+TKT-212,2024-01-11 07:25,Technical,Low,Resolved,1.7,5.7,AGT-10,3.0,Feature request for dashboard export
+TKT-213,2024-01-25 02:30,General,Critical,Escalated,4.9,,AGT-06,,API timeout in production
+TKT-214,2024-03-15 02:12,Technical,Low,Escalated,2.9,,AGT-08,,Incorrect charge on invoice
+TKT-215,2024-01-09 17:49,Technical,Critical,Resolved,5.8,5.1,AGT-10,2.0,Duplicate charge on card
+TKT-216,2024-01-28 17:50,Technical,Medium,Resolved,2.6,17.8,AGT-01,5.0,Feature request for dashboard export
+TKT-217,2024-01-05 23:12,Billing,Medium,Open,3.4,,AGT-07,,Data sync issue between environments
+TKT-218,2024-02-13 17:24,Technical,High,Resolved,5.9,13.9,AGT-06,5.0,Unable to reset password
+TKT-219,2024-02-24 03:50,Billing,Critical,Resolved,1.3,10.7,AGT-06,1.0,Duplicate charge on card
+TKT-220,2024-02-20 10:07,General,Medium,Resolved,3.1,7.2,AGT-05,3.0,Slow response from support portal
+TKT-221,2024-02-02 15:48,Technical,Medium,Resolved,3.0,11.7,AGT-02,1.0,Feature request for dashboard export
+TKT-222,2024-02-26 16:07,General,Low,Resolved,5.2,13.0,AGT-10,3.0,Slow response from support portal
+TKT-223,2024-01-23 02:12,Billing,High,Resolved,1.1,13.0,AGT-04,5.0,Incorrect charge on invoice
+TKT-224,2024-02-25 14:11,Technical,Critical,Open,0.2,,AGT-07,,Request for product docs
+TKT-225,2024-02-10 02:16,Billing,High,Resolved,4.7,18.5,AGT-03,5.0,Data sync issue between environments
+TKT-226,2024-01-21 03:08,Technical,Medium,Escalated,2.9,,AGT-06,,Request for product docs
+TKT-227,2024-02-14 15:05,General,Critical,Resolved,2.2,15.7,AGT-05,4.0,Slow response from support portal
+TKT-228,2024-02-17 00:13,Billing,Low,Open,3.4,,AGT-05,,Refund not processed
+TKT-229,2024-03-09 10:32,Technical,Low,Resolved,2.0,7.6,AGT-05,5.0,Login failure after update
+TKT-230,2024-02-25 16:17,Technical,High,Resolved,5.9,16.5,AGT-01,5.0,Refund not processed
+TKT-231,2024-03-10 08:04,General,Low,Escalated,4.0,,AGT-08,,API timeout in production
+TKT-232,2024-01-20 14:51,Billing,High,Resolved,3.4,6.2,AGT-04,5.0,Incorrect charge on invoice
+TKT-233,2024-03-06 00:49,Billing,Critical,Open,1.5,,AGT-07,,Unable to reset password
+TKT-234,2024-03-10 15:33,General,Medium,Resolved,0.9,19.3,AGT-08,3.0,Duplicate charge on card
+TKT-235,2024-03-04 03:51,General,Low,Escalated,2.0,,AGT-01,,Login failure after update
+TKT-236,2024-03-04 07:57,Billing,Medium,Resolved,4.4,18.8,AGT-01,3.0,Feature request for dashboard export
+TKT-237,2024-03-17 12:04,Technical,Medium,Escalated,5.8,,AGT-01,,Incorrect charge on invoice
+TKT-238,2024-01-29 23:18,Technical,Medium,Open,5.9,,AGT-08,,Data sync issue between environments
+TKT-239,2024-02-20 21:45,Technical,Medium,Escalated,5.1,,AGT-05,,API timeout in production
+TKT-240,2024-03-19 12:40,Technical,Low,Open,2.8,,AGT-03,,Incorrect charge on invoice
+TKT-241,2024-03-12 12:26,Technical,Low,Resolved,4.1,4.7,AGT-07,4.0,Data sync issue between environments
+TKT-242,2024-02-01 20:07,Technical,Low,Resolved,1.2,3.7,AGT-07,3.0,API timeout in production
+TKT-243,2024-02-13 08:58,General,High,Escalated,1.9,,AGT-10,,Incorrect charge on invoice
+TKT-244,2024-01-26 09:27,General,High,Resolved,0.5,3.2,AGT-05,4.0,Login failure after update
+TKT-245,2024-03-03 00:18,General,Critical,Resolved,3.7,5.2,AGT-10,3.0,Unable to reset password
+TKT-246,2024-02-10 08:59,General,High,Escalated,4.6,,AGT-04,,API timeout in production
+TKT-247,2024-03-07 01:18,General,High,Resolved,0.6,9.5,AGT-02,2.0,Incorrect charge on invoice
+TKT-248,2024-03-21 11:11,Billing,Medium,Resolved,3.5,3.8,AGT-04,4.0,Slow response from support portal
+TKT-249,2024-02-17 11:03,Billing,Low,Resolved,4.9,9.6,AGT-09,4.0,Duplicate charge on card
+TKT-250,2024-03-06 07:39,Billing,High,Resolved,2.4,16.5,AGT-07,4.0,Unable to reset password
+TKT-251,2024-03-09 00:00,Billing,Low,Escalated,5.6,,AGT-08,,Incorrect charge on invoice
+TKT-252,2024-01-28 20:58,Technical,Medium,Resolved,4.6,19.6,AGT-08,4.0,Feature request for dashboard export
+TKT-253,2024-02-06 11:19,Billing,Low,Escalated,5.3,,AGT-06,,Login failure after update
+TKT-254,2024-01-18 07:52,Technical,Critical,Resolved,0.9,19.6,AGT-08,5.0,Data sync issue between environments
+TKT-255,2024-02-11 04:17,General,Medium,Resolved,1.6,7.6,AGT-02,5.0,Incorrect charge on invoice
+TKT-256,2024-03-19 14:13,General,High,Resolved,5.6,17.9,AGT-01,2.0,Duplicate charge on card
+TKT-257,2024-02-28 00:56,Billing,High,Resolved,1.5,1.8,AGT-03,4.0,Data sync issue between environments
+TKT-258,2024-01-29 02:01,General,Low,Escalated,3.5,,AGT-10,,Unable to reset password
+TKT-259,2024-01-24 00:01,Billing,Low,Open,4.0,,AGT-07,,Refund not processed
+TKT-260,2024-01-27 17:09,Billing,Low,Escalated,5.3,,AGT-07,,Data sync issue between environments
+TKT-261,2024-02-18 02:52,Technical,Low,Resolved,3.9,8.2,AGT-03,4.0,Refund not processed
+TKT-262,2024-02-06 13:12,Technical,Low,Resolved,1.5,5.3,AGT-01,2.0,Data sync issue between environments
+TKT-263,2024-02-10 01:36,Technical,Critical,Resolved,0.9,5.6,AGT-06,4.0,Login failure after update
+TKT-264,2024-02-22 00:07,General,High,Open,1.7,,AGT-10,,Slow response from support portal
+TKT-265,2024-01-04 20:09,General,High,Open,4.6,,AGT-09,,API timeout in production
+TKT-266,2024-02-16 13:04,Billing,Low,Escalated,1.9,,AGT-04,,API timeout in production
+TKT-267,2024-03-12 23:45,Billing,Low,Escalated,2.9,,AGT-10,,API timeout in production
+TKT-268,2024-02-08 12:13,Technical,Critical,Resolved,4.7,8.2,AGT-06,4.0,Data sync issue between environments
+TKT-269,2024-03-26 17:06,Technical,Medium,Open,5.9,,AGT-06,,API timeout in production
+TKT-270,2024-02-05 23:48,General,Low,Open,5.2,,AGT-03,,Incorrect charge on invoice
+TKT-271,2024-01-26 07:38,General,Medium,Resolved,4.3,6.6,AGT-04,3.0,Duplicate charge on card
+TKT-272,2024-02-23 11:05,Technical,High,Resolved,1.6,16.6,AGT-08,4.0,Request for product docs
+TKT-273,2024-03-12 03:28,Technical,High,Open,4.3,,AGT-03,,Data sync issue between environments
+TKT-274,2024-03-03 07:31,Billing,Critical,Resolved,5.1,2.4,AGT-07,1.0,Request for product docs
+TKT-275,2024-03-22 19:16,Billing,Medium,Open,1.0,,AGT-09,,Duplicate charge on card
+TKT-276,2024-02-06 05:37,General,Low,Resolved,5.6,18.3,AGT-09,1.0,Feature request for dashboard export
+TKT-277,2024-01-02 03:36,Technical,Low,Resolved,3.3,6.4,AGT-03,4.0,Login failure after update
+TKT-278,2024-01-10 08:25,Technical,Medium,Open,3.8,,AGT-06,,Refund not processed
+TKT-279,2024-03-18 04:20,General,Medium,Resolved,2.5,11.7,AGT-02,3.0,Incorrect charge on invoice
+TKT-280,2024-01-10 01:52,Technical,Medium,Resolved,2.9,13.1,AGT-06,2.0,Slow response from support portal
+TKT-281,2024-03-24 07:11,General,Critical,Resolved,5.5,5.4,AGT-08,4.0,Refund not processed
+TKT-282,2024-01-05 12:29,Technical,Critical,Resolved,1.8,11.3,AGT-01,3.0,API timeout in production
+TKT-283,2024-02-26 23:53,General,Low,Resolved,4.9,18.6,AGT-07,4.0,Data sync issue between environments
+TKT-284,2024-02-02 04:59,Technical,Medium,Resolved,4.8,14.1,AGT-01,5.0,Login failure after update
+TKT-285,2024-02-12 10:29,General,Low,Open,3.7,,AGT-10,,Feature request for dashboard export
+TKT-286,2024-03-16 02:30,Technical,Low,Resolved,4.7,9.6,AGT-07,4.0,Request for product docs
+TKT-287,2024-03-06 23:48,Technical,Medium,Resolved,4.7,6.6,AGT-03,2.0,Feature request for dashboard export
+TKT-288,2024-03-10 02:19,Technical,High,Open,2.4,,AGT-02,,Login failure after update
+TKT-289,2024-01-01 12:06,General,Critical,Resolved,4.6,2.9,AGT-09,4.0,Data sync issue between environments
+TKT-290,2024-02-09 14:48,General,Low,Open,3.4,,AGT-10,,Unable to reset password
+TKT-291,2024-03-24 20:36,Billing,Medium,Resolved,2.4,2.6,AGT-10,5.0,Data sync issue between environments
+TKT-292,2024-01-17 11:09,Technical,High,Open,1.7,,AGT-08,,Request for product docs
+TKT-293,2024-01-07 03:25,General,Low,Resolved,1.9,15.9,AGT-08,5.0,Slow response from support portal
+TKT-294,2024-02-29 20:56,Technical,Low,Open,1.9,,AGT-06,,Slow response from support portal
+TKT-295,2024-02-06 21:12,Billing,High,Resolved,2.1,16.5,AGT-05,5.0,Unable to reset password
+TKT-296,2024-02-28 13:35,Technical,Critical,Open,2.0,,AGT-06,,Refund not processed
+TKT-297,2024-03-12 08:22,Technical,High,Resolved,3.5,5.6,AGT-06,5.0,Login failure after update
+TKT-298,2024-02-24 17:52,General,Low,Escalated,1.2,,AGT-01,,Duplicate charge on card
+TKT-299,2024-03-09 18:36,General,Low,Resolved,5.0,2.3,AGT-08,5.0,Request for product docs
+TKT-300,2024-03-02 11:46,General,Low,Resolved,1.0,9.0,AGT-08,4.0,Slow response from support portal
+TKT-301,2024-02-08 21:56,Technical,Medium,Escalated,5.2,,AGT-09,,Incorrect charge on invoice
+TKT-302,2024-03-17 18:30,Billing,Critical,Resolved,4.9,12.3,AGT-06,2.0,Request for product docs
+TKT-303,2024-03-03 19:37,Technical,Medium,Resolved,3.9,13.3,AGT-02,3.0,Incorrect charge on invoice
+TKT-304,2024-01-10 13:46,Technical,Low,Resolved,3.2,12.0,AGT-08,4.0,Slow response from support portal
+TKT-305,2024-03-08 00:50,Billing,Medium,Resolved,0.2,3.0,AGT-03,5.0,Unable to reset password
+TKT-306,2024-01-31 06:45,Technical,Low,Resolved,3.2,7.6,AGT-06,5.0,Login failure after update
+TKT-307,2024-01-30 03:39,General,Low,Resolved,0.2,7.5,AGT-04,5.0,Data sync issue between environments
+TKT-308,2024-01-17 22:30,Billing,Medium,Resolved,2.6,9.8,AGT-07,4.0,Feature request for dashboard export
+TKT-309,2024-01-03 20:01,General,High,Resolved,2.8,79.3,AGT-02,3.0,Slow response from support portal
+TKT-310,2024-01-10 21:05,Technical,High,Resolved,2.3,4.7,AGT-09,4.0,Unable to reset password
+TKT-311,2024-02-27 23:02,General,Medium,Resolved,0.8,7.7,AGT-05,3.0,Slow response from support portal
+TKT-312,2024-02-27 07:11,Technical,Low,Open,0.8,,AGT-02,,Request for product docs
+TKT-313,2024-02-06 05:51,General,High,Resolved,2.6,3.6,AGT-09,3.0,Request for product docs
+TKT-314,2024-02-23 21:02,Billing,Low,Resolved,1.2,17.0,AGT-08,5.0,Request for product docs
+TKT-315,2024-01-19 22:40,Technical,High,Escalated,3.1,,AGT-07,,Duplicate charge on card
+TKT-316,2024-02-10 08:29,Billing,High,Resolved,1.1,11.7,AGT-05,3.0,API timeout in production
+TKT-317,2024-02-22 04:43,General,Low,Resolved,3.4,15.7,AGT-02,4.0,Refund not processed
+TKT-318,2024-03-16 06:08,Billing,Medium,Escalated,3.3,,AGT-08,,Data sync issue between environments
+TKT-319,2024-01-22 05:14,Billing,Critical,Open,5.0,,AGT-05,,Incorrect charge on invoice
+TKT-320,2024-02-13 15:57,Billing,Low,Resolved,0.6,17.4,AGT-10,5.0,Unable to reset password
+TKT-321,2024-03-24 14:23,Billing,High,Resolved,1.1,3.6,AGT-10,3.0,Unable to reset password
+TKT-322,2024-02-21 16:18,General,Low,Resolved,2.0,14.4,AGT-02,3.0,Request for product docs
+TKT-323,2024-03-13 19:50,General,High,Escalated,6.0,,AGT-03,,Request for product docs
+TKT-324,2024-01-25 05:47,General,Low,Resolved,1.6,17.0,AGT-05,2.0,Feature request for dashboard export
+TKT-325,2024-02-06 10:12,Technical,Medium,Resolved,5.3,2.8,AGT-08,3.0,Duplicate charge on card
+TKT-326,2024-02-01 18:38,General,Medium,Resolved,5.1,2.8,AGT-06,4.0,Login failure after update
+TKT-327,2024-03-18 06:03,Billing,Medium,Open,2.6,,AGT-08,,Refund not processed
+TKT-328,2024-02-01 08:19,General,High,Resolved,3.5,11.8,AGT-01,3.0,Incorrect charge on invoice
+TKT-329,2024-01-10 16:01,Technical,Medium,Resolved,0.2,18.7,AGT-04,4.0,Request for product docs
+TKT-330,2024-03-26 15:33,Technical,Medium,Open,5.6,,AGT-02,,Unable to reset password
+TKT-331,2024-01-25 07:26,Billing,Low,Resolved,3.9,2.0,AGT-07,5.0,Login failure after update
+TKT-332,2024-03-09 07:44,General,Low,Open,0.6,,AGT-04,,Data sync issue between environments
+TKT-333,2024-03-07 00:28,Billing,Medium,Open,2.1,,AGT-07,,Request for product docs
+TKT-334,2024-02-16 09:07,Billing,Low,Resolved,4.4,2.9,AGT-07,5.0,Request for product docs
+TKT-335,2024-03-03 06:58,Billing,Critical,Open,3.2,,AGT-10,,Request for product docs
+TKT-336,2024-02-12 17:30,Technical,Medium,Open,4.5,,AGT-10,,Duplicate charge on card
+TKT-337,2024-03-24 11:51,Technical,Low,Resolved,0.9,3.3,AGT-06,4.0,Request for product docs
+TKT-338,2024-01-25 01:23,General,Low,Open,3.4,,AGT-10,,Refund not processed
+TKT-339,2024-03-16 15:07,Technical,Critical,Open,5.1,,AGT-04,,Data sync issue between environments
+TKT-340,2024-02-28 22:14,Technical,Medium,Resolved,1.8,2.0,AGT-07,5.0,Login failure after update
+TKT-341,2024-01-24 09:45,Billing,Medium,Resolved,3.2,19.6,AGT-07,5.0,Slow response from support portal
+TKT-342,2024-02-10 20:40,Billing,Medium,Resolved,4.6,19.1,AGT-01,1.0,Refund not processed
+TKT-343,2024-01-21 22:43,General,Low,Open,4.8,,AGT-05,,Data sync issue between environments
+TKT-344,2024-03-15 11:29,Technical,Medium,Resolved,0.6,11.2,AGT-02,3.0,Data sync issue between environments
+TKT-345,2024-01-20 17:29,General,Critical,Open,2.0,,AGT-02,,Refund not processed
+TKT-346,2024-03-08 20:01,Billing,Medium,Escalated,1.5,,AGT-02,,Feature request for dashboard export
+TKT-347,2024-01-12 06:16,General,Medium,Resolved,1.9,15.1,AGT-03,2.0,Incorrect charge on invoice
+TKT-348,2024-01-16 21:45,General,Medium,Resolved,3.2,16.6,AGT-05,4.0,Login failure after update
+TKT-349,2024-03-15 21:33,General,High,Resolved,2.6,11.0,AGT-02,5.0,Duplicate charge on card
+TKT-350,2024-02-14 04:41,Billing,Medium,Open,5.2,,AGT-06,,Request for product docs
+TKT-351,2024-01-25 18:27,Billing,High,Resolved,4.1,3.2,AGT-04,1.0,Incorrect charge on invoice
+TKT-352,2024-02-15 19:17,Billing,Medium,Escalated,1.2,,AGT-09,,Feature request for dashboard export
+TKT-353,2024-01-22 19:09,General,Low,Resolved,4.3,6.2,AGT-01,4.0,Request for product docs
+TKT-354,2024-01-22 16:03,Billing,High,Escalated,5.7,,AGT-08,,Refund not processed
+TKT-355,2024-03-16 02:26,Technical,High,Resolved,3.4,1.2,AGT-10,4.0,API timeout in production
+TKT-356,2024-02-15 01:01,Billing,Medium,Escalated,6.0,,AGT-09,,API timeout in production
+TKT-357,2024-01-15 14:50,Technical,Low,Resolved,1.5,7.6,AGT-01,5.0,Feature request for dashboard export
+TKT-358,2024-03-23 10:19,Billing,High,Resolved,1.3,19.7,AGT-05,5.0,Login failure after update
+TKT-359,2024-01-05 06:17,Billing,Critical,Resolved,3.2,14.3,AGT-10,5.0,Login failure after update
+TKT-360,2024-02-19 01:43,Billing,Low,Resolved,0.5,11.8,AGT-05,5.0,Refund not processed
+TKT-361,2024-03-23 14:46,Billing,Low,Resolved,4.2,15.0,AGT-04,3.0,Request for product docs
+TKT-362,2024-03-16 17:23,Technical,High,Open,0.7,,AGT-08,,Unable to reset password
+TKT-363,2024-02-09 11:14,Billing,Low,Resolved,4.6,9.6,AGT-03,5.0,Refund not processed
+TKT-364,2024-03-21 05:37,Technical,High,Resolved,1.4,17.3,AGT-07,5.0,Data sync issue between environments
+TKT-365,2024-01-05 18:03,General,High,Resolved,5.9,1.6,AGT-09,4.0,API timeout in production
+TKT-366,2024-01-10 04:43,Billing,Medium,Resolved,0.9,1.2,AGT-04,5.0,Feature request for dashboard export
+TKT-367,2024-02-06 03:22,General,High,Escalated,0.6,,AGT-05,,Login failure after update
+TKT-368,2024-01-03 02:47,Billing,Critical,Open,3.9,,AGT-02,,Unable to reset password
+TKT-369,2024-01-12 21:30,Billing,Low,Resolved,1.1,11.9,AGT-07,4.0,Feature request for dashboard export
+TKT-370,2024-01-17 18:40,Technical,Medium,Escalated,1.7,,AGT-03,,Incorrect charge on invoice
+TKT-371,2024-02-29 14:58,Technical,Medium,Open,1.8,,AGT-09,,Duplicate charge on card
+TKT-372,2024-01-06 22:05,General,Low,Resolved,2.6,13.2,AGT-01,3.0,Feature request for dashboard export
+TKT-373,2024-03-16 21:59,Technical,High,Resolved,4.7,7.5,AGT-03,3.0,Incorrect charge on invoice
+TKT-374,2024-01-31 23:02,Technical,Medium,Open,4.9,,AGT-01,,Duplicate charge on card
+TKT-375,2024-02-21 09:39,General,Medium,Resolved,1.5,4.0,AGT-01,3.0,API timeout in production
+TKT-376,2024-02-25 21:27,General,High,Resolved,2.2,16.9,AGT-06,3.0,Unable to reset password
+TKT-377,2024-03-29 17:43,Technical,Medium,Resolved,2.2,11.8,AGT-09,5.0,Refund not processed
+TKT-378,2024-01-18 01:04,Billing,Medium,Open,1.5,,AGT-01,,Data sync issue between environments
+TKT-379,2024-02-16 09:47,Billing,Low,Escalated,1.3,,AGT-06,,Request for product docs
+TKT-380,2024-03-18 21:47,General,High,Resolved,0.2,12.1,AGT-06,5.0,Login failure after update
+TKT-381,2024-02-06 06:31,General,High,Resolved,3.6,7.4,AGT-07,5.0,Duplicate charge on card
+TKT-382,2024-03-04 00:41,General,Low,Resolved,3.4,17.9,AGT-10,4.0,Request for product docs
+TKT-383,2024-02-06 17:41,Technical,Low,Resolved,0.9,14.8,AGT-10,5.0,Incorrect charge on invoice
+TKT-384,2024-01-18 16:16,Billing,Medium,Escalated,5.8,,AGT-10,,Login failure after update
+TKT-385,2024-02-18 04:11,Billing,Low,Resolved,1.5,19.7,AGT-06,5.0,Duplicate charge on card
+TKT-386,2024-01-02 02:33,Technical,Low,Open,0.5,,AGT-02,,Incorrect charge on invoice
+TKT-387,2024-01-05 16:11,General,Medium,Resolved,5.8,17.8,AGT-07,4.0,Login failure after update
+TKT-388,2024-03-21 11:15,Billing,Medium,Resolved,3.9,14.1,AGT-05,2.0,Incorrect charge on invoice
+TKT-389,2024-01-31 22:39,Technical,Low,Open,2.1,,AGT-03,,Login failure after update
+TKT-390,2024-02-23 02:42,General,Critical,Escalated,2.1,,AGT-08,,Incorrect charge on invoice
+TKT-391,2024-02-11 21:03,Billing,Critical,Open,5.3,,AGT-01,,Login failure after update
+TKT-392,2024-02-02 03:30,General,Low,Open,4.2,,AGT-09,,Refund not processed
+TKT-393,2024-03-05 03:18,General,Low,Open,0.4,,AGT-09,,Duplicate charge on card
+TKT-394,2024-01-15 21:53,General,Low,Open,0.6,,AGT-10,,Duplicate charge on card
+TKT-395,2024-01-20 09:16,Billing,Low,Open,3.9,,AGT-08,,Login failure after update
+TKT-396,2024-01-30 22:30,Technical,High,Resolved,5.4,6.0,AGT-07,4.0,Unable to reset password
+TKT-397,2024-01-19 02:46,General,Medium,Resolved,2.8,5.3,AGT-02,2.0,Login failure after update
+TKT-398,2024-03-05 20:52,General,Low,Resolved,5.8,12.2,AGT-07,5.0,Data sync issue between environments
+TKT-399,2024-03-07 16:59,General,High,Resolved,5.3,10.0,AGT-01,5.0,Data sync issue between environments
+TKT-400,2024-02-25 11:02,Billing,Critical,Resolved,4.1,12.8,AGT-03,5.0,API timeout in production
+TKT-401,2024-03-19 11:51,General,Low,Open,0.6,,AGT-07,,API timeout in production
+TKT-402,2024-03-20 20:42,Technical,Medium,Resolved,1.6,18.3,AGT-09,2.0,Feature request for dashboard export
+TKT-403,2024-02-23 14:22,General,Low,Resolved,2.8,17.6,AGT-07,4.0,Login failure after update
+TKT-404,2024-02-10 05:43,Billing,Low,Resolved,3.5,19.3,AGT-05,2.0,Data sync issue between environments
+TKT-405,2024-03-26 10:51,Technical,Low,Resolved,2.4,10.2,AGT-07,1.0,Request for product docs
+TKT-406,2024-03-01 00:36,General,Medium,Resolved,0.3,17.9,AGT-08,3.0,Refund not processed
+TKT-407,2024-03-28 02:14,General,Medium,Resolved,4.8,6.9,AGT-02,5.0,API timeout in production
+TKT-408,2024-01-14 01:08,Billing,Low,Resolved,4.7,7.1,AGT-04,4.0,Duplicate charge on card
+TKT-409,2024-01-21 12:34,Billing,Critical,Resolved,3.0,10.8,AGT-02,2.0,Refund not processed
+TKT-410,2024-03-09 21:24,General,Medium,Open,5.1,,AGT-01,,Request for product docs
+TKT-411,2024-01-19 17:10,Billing,High,Open,0.4,,AGT-08,,Incorrect charge on invoice
+TKT-412,2024-02-04 23:44,Billing,High,Resolved,5.0,10.6,AGT-04,2.0,Unable to reset password
+TKT-413,2024-02-17 10:57,General,Medium,Open,5.2,,AGT-09,,Unable to reset password
+TKT-414,2024-02-03 10:09,Billing,Low,Resolved,4.5,14.1,AGT-10,4.0,API timeout in production
+TKT-415,2024-03-24 05:12,General,Low,Open,1.3,,AGT-07,,Data sync issue between environments
+TKT-416,2024-01-02 22:43,Technical,High,Escalated,4.1,,AGT-03,,Request for product docs
+TKT-417,2024-02-28 08:45,Technical,High,Open,3.7,,AGT-05,,Feature request for dashboard export
+TKT-418,2024-03-27 22:37,Technical,Medium,Resolved,1.6,9.9,AGT-10,5.0,Login failure after update
+TKT-419,2024-01-01 17:07,Technical,Medium,Resolved,5.1,8.1,AGT-02,4.0,Duplicate charge on card
+TKT-420,2024-01-07 04:45,General,Low,Resolved,2.0,6.3,AGT-05,5.0,API timeout in production
+TKT-421,2024-01-15 13:21,General,Medium,Open,0.4,,AGT-07,,Unable to reset password
+TKT-422,2024-03-07 02:16,Technical,Low,Open,3.0,,AGT-05,,Feature request for dashboard export
+TKT-423,2024-02-09 06:47,General,Medium,Open,4.3,,AGT-04,,Unable to reset password
+TKT-424,2024-03-11 12:59,Technical,High,Resolved,3.9,10.0,AGT-03,4.0,Data sync issue between environments
+TKT-425,2024-01-18 14:04,General,Low,Resolved,4.5,14.8,AGT-06,5.0,Login failure after update
+TKT-426,2024-01-22 13:53,Technical,Medium,Resolved,1.9,16.0,AGT-08,3.0,Login failure after update
+TKT-427,2024-02-15 16:25,Billing,Low,Resolved,3.5,12.8,AGT-07,3.0,Data sync issue between environments
+TKT-428,2024-01-29 23:13,Technical,Medium,Resolved,1.0,19.9,AGT-03,5.0,Unable to reset password
+TKT-429,2024-03-24 17:31,Billing,High,Resolved,3.0,13.0,AGT-08,4.0,Refund not processed
+TKT-430,2024-01-21 07:53,Technical,High,Open,4.6,,AGT-02,,Request for product docs
+TKT-431,2024-02-29 15:50,Billing,Medium,Resolved,2.6,108.0,AGT-06,5.0,Data sync issue between environments
+TKT-432,2024-01-19 12:04,Billing,Low,Open,4.4,,AGT-06,,Refund not processed
+TKT-433,2024-01-13 12:25,Technical,Low,Resolved,1.9,2.2,AGT-09,5.0,Slow response from support portal
+TKT-434,2024-02-20 21:16,Billing,Low,Resolved,6.0,7.5,AGT-03,4.0,Feature request for dashboard export
+TKT-435,2024-01-02 20:33,Technical,Low,Resolved,0.9,14.9,AGT-01,3.0,Feature request for dashboard export
+TKT-436,2024-03-26 02:29,Billing,Medium,Resolved,3.8,12.3,AGT-01,2.0,Login failure after update
+TKT-437,2024-02-10 11:09,General,Medium,Open,1.6,,AGT-03,,API timeout in production
+TKT-438,2024-03-08 11:54,Billing,High,Open,2.6,,AGT-09,,Refund not processed
+TKT-439,2024-03-01 11:13,Billing,Medium,Open,5.0,,AGT-09,,Slow response from support portal
+TKT-440,2024-01-12 10:20,Billing,Low,Resolved,3.0,12.6,AGT-06,5.0,Feature request for dashboard export
+TKT-441,2024-01-29 16:13,Billing,Low,Resolved,5.5,14.1,AGT-02,3.0,Login failure after update
+TKT-442,2024-03-22 02:13,Technical,Medium,Resolved,5.7,15.8,AGT-04,5.0,Duplicate charge on card
+TKT-443,2024-01-29 17:46,Billing,Low,Open,4.9,,AGT-05,,Unable to reset password
+TKT-444,2024-03-18 19:51,Billing,High,Resolved,0.8,17.2,AGT-03,1.0,Unable to reset password
+TKT-445,2024-02-04 17:05,General,High,Escalated,1.7,,AGT-02,,Unable to reset password
+TKT-446,2024-03-20 03:00,Technical,Low,Open,2.5,,AGT-05,,Feature request for dashboard export
+TKT-447,2024-03-07 23:35,Billing,High,Resolved,3.9,16.1,AGT-03,4.0,Login failure after update
+TKT-448,2024-02-10 09:24,General,Critical,Resolved,3.5,9.3,AGT-01,5.0,Request for product docs
+TKT-449,2024-02-16 21:39,Billing,Critical,Open,2.5,,AGT-02,,Refund not processed
+TKT-450,2024-03-04 14:11,General,Low,Resolved,4.1,15.6,AGT-06,4.0,Data sync issue between environments
+TKT-451,2024-02-20 18:55,General,High,Resolved,2.7,14.8,AGT-07,4.0,Request for product docs
+TKT-452,2024-03-22 11:05,Technical,High,Resolved,3.7,1.2,AGT-08,4.0,Request for product docs
+TKT-453,2024-01-08 06:26,Technical,High,Resolved,2.1,6.3,AGT-07,4.0,API timeout in production
+TKT-454,2024-01-08 15:41,Technical,Medium,Resolved,2.7,17.3,AGT-01,2.0,Login failure after update
+TKT-455,2024-02-09 04:04,Technical,Medium,Resolved,0.1,2.7,AGT-09,4.0,Data sync issue between environments
+TKT-456,2024-01-21 01:59,Technical,High,Resolved,2.1,16.7,AGT-09,5.0,Slow response from support portal
+TKT-457,2024-02-28 05:59,Technical,Medium,Resolved,4.3,3.2,AGT-06,3.0,Refund not processed
+TKT-458,2024-02-23 04:12,General,Medium,Resolved,0.4,4.1,AGT-07,5.0,Login failure after update
+TKT-459,2024-01-25 16:32,Technical,Medium,Open,5.6,,AGT-04,,Duplicate charge on card
+TKT-460,2024-03-21 01:21,General,High,Resolved,0.7,8.9,AGT-02,5.0,Duplicate charge on card
+TKT-461,2024-02-14 09:47,Technical,High,Escalated,0.9,,AGT-01,,Data sync issue between environments
+TKT-462,2024-03-12 11:30,Technical,Low,Escalated,5.0,,AGT-09,,Request for product docs
+TKT-463,2024-03-08 04:03,General,Medium,Resolved,0.9,8.4,AGT-07,5.0,Feature request for dashboard export
+TKT-464,2024-02-29 03:03,Billing,Critical,Resolved,1.7,19.3,AGT-03,4.0,Feature request for dashboard export
+TKT-465,2024-02-28 11:59,General,High,Resolved,1.9,14.3,AGT-04,5.0,API timeout in production
+TKT-466,2024-01-21 08:39,Billing,Medium,Resolved,2.1,13.8,AGT-09,4.0,Data sync issue between environments
+TKT-467,2024-03-08 09:51,General,Medium,Resolved,4.6,11.7,AGT-07,5.0,Data sync issue between environments
+TKT-468,2024-01-28 18:15,Billing,High,Resolved,0.2,3.0,AGT-04,2.0,Refund not processed
+TKT-469,2024-03-13 20:03,Billing,High,Escalated,4.1,,AGT-01,,Refund not processed
+TKT-470,2024-01-20 19:21,Billing,High,Open,4.9,,AGT-10,,Data sync issue between environments
+TKT-471,2024-03-24 23:13,General,Low,Resolved,2.4,10.7,AGT-01,4.0,Feature request for dashboard export
+TKT-472,2024-02-07 15:04,Billing,Medium,Resolved,4.1,19.4,AGT-10,5.0,Duplicate charge on card
+TKT-473,2024-03-21 14:00,Billing,Low,Resolved,4.3,8.0,AGT-04,5.0,Refund not processed
+TKT-474,2024-02-13 13:48,Technical,Low,Resolved,1.2,4.3,AGT-05,4.0,Data sync issue between environments
+TKT-475,2024-01-26 15:43,Billing,Low,Resolved,1.6,7.3,AGT-06,3.0,Slow response from support portal
+TKT-476,2024-01-05 22:30,Billing,High,Resolved,5.1,6.7,AGT-06,4.0,Data sync issue between environments
+TKT-477,2024-01-22 08:32,Technical,Critical,Resolved,4.7,4.0,AGT-04,4.0,API timeout in production
+TKT-478,2024-03-05 09:40,General,Low,Resolved,1.4,15.3,AGT-01,5.0,Login failure after update
+TKT-479,2024-03-05 22:44,General,Low,Open,3.9,,AGT-04,,Incorrect charge on invoice
+TKT-480,2024-03-07 06:27,Billing,High,Resolved,4.8,3.2,AGT-09,5.0,Unable to reset password
+TKT-481,2024-02-19 22:25,Billing,High,Resolved,0.4,18.1,AGT-03,4.0,Data sync issue between environments
+TKT-482,2024-02-21 18:27,Billing,Low,Open,4.1,,AGT-07,,Login failure after update
+TKT-483,2024-01-20 23:02,General,Medium,Resolved,5.9,15.7,AGT-03,5.0,Incorrect charge on invoice
+TKT-484,2024-02-14 14:04,Billing,High,Open,0.5,,AGT-05,,Data sync issue between environments
+TKT-485,2024-01-07 20:08,Technical,Medium,Open,1.6,,AGT-08,,Feature request for dashboard export
+TKT-486,2024-02-12 01:01,General,Low,Resolved,0.8,1.1,AGT-10,2.0,Incorrect charge on invoice
+TKT-487,2024-03-09 01:10,Technical,High,Resolved,3.1,6.5,AGT-08,4.0,Feature request for dashboard export
+TKT-488,2024-02-08 08:40,Billing,High,Open,1.0,,AGT-03,,Feature request for dashboard export
+TKT-489,2024-03-18 08:36,General,High,Resolved,5.8,3.7,AGT-06,5.0,Incorrect charge on invoice
+TKT-490,2024-02-23 17:48,General,High,Open,0.3,,AGT-10,,Feature request for dashboard export
+TKT-491,2024-02-22 03:39,General,Medium,Open,1.3,,AGT-06,,API timeout in production
+TKT-492,2024-02-10 01:33,Billing,Critical,Resolved,0.9,4.5,AGT-03,3.0,Slow response from support portal
+TKT-493,2024-03-23 17:53,General,Low,Resolved,5.9,11.4,AGT-02,2.0,Refund not processed
+TKT-494,2024-01-10 12:49,Technical,Low,Resolved,5.7,7.8,AGT-10,3.0,Login failure after update
+TKT-495,2024-03-28 09:25,General,Low,Resolved,2.0,13.5,AGT-06,3.0,Unable to reset password
+TKT-496,2024-02-11 14:01,Technical,Low,Resolved,4.7,14.5,AGT-03,3.0,Unable to reset password
+TKT-497,2024-03-26 05:37,Billing,Medium,Resolved,4.7,10.3,AGT-05,4.0,Request for product docs
+TKT-498,2024-03-27 12:52,General,Medium,Resolved,5.3,2.5,AGT-01,1.0,Slow response from support portal
+TKT-499,2024-02-26 04:56,Technical,Medium,Resolved,5.4,11.5,AGT-03,5.0,Unable to reset password
+TKT-500,2024-02-08 02:35,Technical,Low,Resolved,4.4,6.5,AGT-06,4.0,Data sync issue between environments
